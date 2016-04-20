@@ -8,6 +8,7 @@ public class FirstTest {
 
     @Test
     public void test1() {
-        Assert.fail();
+        String expected = "something";
+        Assert.assertEquals(expected, "something");
     }
 }
